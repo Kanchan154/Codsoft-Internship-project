@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container {
-    background-color: #e5e5fd;
+    background-color: #e7d9ea;
     min-height: 100vh;
     border: 10px solid #1d1e4c;
 }
@@ -83,5 +83,5 @@ footer{
 }
 footer p{
     text-align: end;
-    margin-right: 20px;
+    margin-right: 50px;
 }
