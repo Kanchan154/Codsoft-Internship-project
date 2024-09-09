@@ -1,62 +1,77 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #198537;
-    background : linear-gradient(to bottom, black , rgb(27,27,27), rgb(43,43,43), black )
+    background: linear-gradient(to bottom, black, rgb(27, 27, 27), rgb(43, 43, 43), black);
 }
+
+/* Header */
 header {
     background-color: #00704A;
     color: white;
     padding: 10px 20px;
     text-align: center;
 }
+
+/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 50px ;
-
+    padding: 4px 50px;
     background-color: #00704A;
 }
-.nav-links{
+
+.nav-links {
     font-size: 27px;
 }
-nav logo ,img{
+
+.logo img {
     height: 80px;
 }
+
+.star {
+    font-size: 30px;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
 }
+
 nav a:hover {
     background-color: #03502D;
 }
+
+/* Hero Section */
 .hero {
-    background-image: url('https://www.starbucks.com/assets/226d6e0c32df44e3b0ef5f2ee334f21a.jpg'); 
+    background-image: url('https://www.starbucks.com/assets/226d6e0c32df44e3b0ef5f2ee334f21a.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     padding: 150px 20px;
     text-align: center;
 }
-/* .hero,img{
-    height: 150px;
-    width: 200px;
-    text-align: center;
-    margin-left: 300px;
-} */
 
 .hero h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
+
 .hero p {
     font-size: 24px;
     margin-bottom: 40px;
 }
+
+.hero img {
+    height: 350px;
+    width: 580px;
+}
+
 .hero button {
     padding: 15px 30px;
     font-size: 28px;
@@ -64,125 +79,148 @@ nav a:hover {
     background-color: #D4AC60;
     border: none;
     cursor: pointer;
-    box-shadow: #03502D;
+    box-shadow: 0 2px 4px #03502D;
 }
-.hero button:hover{
-color: 2px solid rgb(153, 183, 153);
-}
+
 .hero button:hover {
     background-color: #a36507;
 }
-.text-center{
+
+.cont p{
+    font-size: 18px;
+    color: #1f8c3a;
+    word-spacing: .080rem;
+    
+}
+.cont h4{
+    font-size: 22px;
+    color: #bc9d72;
+}
+/* Text Alignment */
+.text-center {
     text-align: center;
     font-size: 50px;
     font-weight: 100;
 }
-.products, .about {
+
+/* Products Section */
+.products,
+.about {
     padding: 50px 20px;
     text-align: center;
 }
-.product-item h3{
+
+.product-item h3 {
     font-size: 48px;
+    color: #ebdfdf;
 }
-.product-item p{
+
+.product-item p {
     font-size: 25px;
 }
-.products h2, .about h2 {
-    font-size: 36px;
+
+.products h2,
+.about h2 {
+    font-size: 52px;
     margin-bottom: 20px;
+    color: #a36507;
 }
-.products .product-item, .about .about-item {
+
+.products .product-item,
+.about .about-item {
     margin-bottom: 30px;
 }
-footer {
-    /* background-color: #00704A;
-    color: white;
-    text-align: center;
-    padding: 20px; */
 
-    footer {
-        background-color: #2c2c2c;
-        color: #fff;
-        padding: 40px 0;
-        text-align: center;
-    }
-    
-    .footer-container {
-        max-width: 1200px;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .footer-content {
-        margin-bottom: 20px;
-    }
-    
-    .footer-section {
-        margin-bottom: 30px;
-        flex: 1;
-        min-width: 220px;
-    }
-    
-    .footer-section h3 {
-        font-size: 30px;
-        margin-bottom: 15px;
-        text-transform: uppercase;
-        color: #c1a782;
-        text-align: center;
-    
-    }
-    
-    .footer-section p, 
-    .footer-section ul {
-        font-size: 14px;
-        line-height: 1.6;
-    }
-    
-    .footer-section ul {
-        list-style: none;
-        padding: 0;
-    }
-    
-    .footer-section ul li {
-        margin-bottom: 10px;
-    }
-    
-    .footer-section ul li a {
-        color: #c1a782;
-        text-decoration: none;
-        transition: color 0.3s;
-    }
-    
-    .footer-section ul li a:hover {
-        color: #fff;
-    }
-    
-    .social-links {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-    
-    .social-links li {
-        margin: 0 10px;
-    }
-    
-    .footer-bottom {
-        border-top: 1px solid #444;
-        padding-top: 20px;
-        font-size: 12px;
-        color: #ccc;
-    }
-    
-    .footer-bottom a {
-        color: #c1a782;
-        text-decoration: none;
-        margin: 0 10px;
-    }
-    
-    .footer-bottom a:hover {
-        color: #fff;
-    } 
+/* Footer Section */
+footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-container p{
+    font-size: 20px;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    margin-bottom: 30px;
+    flex: 1;
+    min-width: 220px;
+}
+/* .footer-section p{
+    font-size: 20px;
+} */
+
+.footer-section h3 {
+    font-size: 40px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #bc9d72;
+    text-align: center;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #c1a782;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.footer-bottom a {
+    color: #c1a782;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
 }
